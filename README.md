@@ -2,8 +2,9 @@
 My css structure of green garden services and tree felling
 
 Welcome to GreenGardenServicesAndTreeFelling  your go to green thumb solution for professional, gardening services. This manual provides an overview about the technologies used and the type of services offered while delivering top results.
-This website contains all the necessary content that is centerd around this gardening services this whole website consists of a Home page, Aboutus page, Contactus pgae, Enquiery page and a Servics page each page has its own navigation links to create a seamless user experience for the customers. Each page also has a footer and header.
+This website contains all the necessary content that is centerd around this gardening services this whole website consists of a Home page, Aboutus page, Contactus pgae, Enquiery page and a Servics page each page has its own navigation pane to create a seamless user experience for the customers. Each page also has a footer and header.
 
+This website consists of breakpoints and media queries that are tailored for the different types of devices customers will be using in order to  familiarise themselves with the business and the services they offer.
 
 ABOUT US:
 Our business is based in Randburg and consists of a number of 12 workers who are from different walks of life but enjoy working together and are dedicated to transforming outdoor spaces into lush, environments, whether you are a homeowner or private organisation we offer tailored solutions to meet your gardening needs. 
@@ -24,3 +25,16 @@ AboutUs
 Enquiery
 |
 ContactUs
+
+References:
+E. Majikijela(media queries)
+E.Majikijela(selectors)
+E.Majikijela(Syntax)
+
+CHANGELOG:
+v1.0.0
+Initial release(2025-08-07)
+Home, Services, AboutUs, Enquiery, ContactUs
+v1.1.0
+LatestUpdat(2025-09-24)
+reademefile, some contents of the html structure have been updated
