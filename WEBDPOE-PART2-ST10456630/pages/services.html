@@ -136,14 +136,14 @@
                     if(!heading) return;
 
                     heading.style.opacity = 0;
-                    heading.style.transform = "translateY(-50)";
+                    heading.style.transform = "translateY(-50px)";
 
                     const observer = new IntersectionObserver((entries, observer) =>{
                         entries.forEach(entry =>{
                             if(entry.isIntersecting){
                                 heading.style.transition = "all 0.6s ease-out";
                                 heading.style.opacity = 1;
-                                heading.style.transform = "translateX(0)";
+                                heading.style.transform = "translateY(0)";
                                 observer.unobserve(heading);
                             }
                         });
@@ -156,8 +156,8 @@
                 animateHeading("p");
 
                 animateService(".topping", ".s-title", ".topping-img", ".topping-content");
-                animateService(".removal", ".s-title", ".removal-img", ".removal-content");
-                animateService(".trimming", ".s-title", ".trim-img", ".trim-content");
+                animateService(".removal", ".s-title", ".removal-image", ".removal-content");
+                animateService(".trimming", ".s-title", ".trim-image", ".trim-content");
 
                 animateHeading("h1:nth-of-type(2)");
                 animateHeading("p:nth-of-type(2)");
