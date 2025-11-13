@@ -1342,31 +1342,19 @@ p{
         border-radius: 15px;
     }
 }
-.c-form::before{
-    content: "";
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    background: white;
-    top: 0;
-    left: 0;
-    border-radius: 22px;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-    animation: pulseGlow 2s linear infinite;
+.c-form .form:hover{
+    border-color: #fff;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.8), 0 8px 32px rgba(0, 0, 0, 0.25);
+    animation: pulseForm 1.5s infinite alternate;
+   
 }
-.c-form::before{
-    opacity: 1;
-    animation: travel 2s linear infinite;
-}
-@keyframes pulseGlow{
-   0%, 100%{
-        opacity: 0.3s; transform: scale(1);
-   }
-   50%{
-        opacity: 0.8s; 
-   }
+@keyframes pulseForm{
+    form{
+        box-shadow: 0 0 18px rgba(255, 255, 255, 0.6), 0 8px 32px rgba(0, 0, 0, 0.25);
+    }
+    to{
+        box-shadow: 0 0 28px rgba(255, 255, 255, 1), 0 8px 32px rgba(0, 0, 0, 0.25)
+    }
 }
 .form{
     width: 100%;
@@ -1462,7 +1450,7 @@ input{
 }
 
 .form-submit button:hover{
-    color:#0042005e;
+    color:#0049005e;
 }
 
 .form-submit{
