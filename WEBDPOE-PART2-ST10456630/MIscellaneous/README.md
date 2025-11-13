@@ -1,28 +1,42 @@
 # GreenGardenServicesAndTreeFellingHTMLStructure
 my initial HTML structure
-Joy Mafalo ST1056630 
+Author: Joy Mafalo 
+Student number: ST1056630 
 
+Project Summary:
 This website showcases all the different services conducted by the organisation solemly focusing on gardening services for residential and commercial clients.
+This website contains an easy navigation pane from webpage to webpage that allows customers to scroll up and down on each webpage. 
 
-Easy navigation pane from webpage to webpage that allows customers to scroll up and down on each webpage. Part 1 of the project showcases my html structure for the website it includes a homepage, aboutus page, contactus page, enquiery page and a services page.
-
-In order to cater to the various screen devices breakpoints and media queries have been used to make sure the user has a seamless user experience whether that be from a tablet,mobile device or laptop.
-
-The website is does not contain  a loading page as stated in the proposal it was deliberately left out to properly introduce potential customers to the business.
+Content Overview:
+Pages: Home, About us, Contact us, Services, Enquiery.
+Webpage content: Service descriptions, company information and form instructions.
+Images: Are stored inside a folderand are properly linked in HTML.
+Forms: Interactive forms containing glow effects and transitions to make them more engaging.
 
 Site Map of the website:
-Home page
+Home
 |
-About us
+|---About Us
 |
-Contact us
+|---Contact Us
 |
-Enquiery
+|---Enquiry
 |
-Services
+|--Services
+
+Interactive Features:
+The enquiry form: Contains a white glow pulse effect that is triggered whenever the user hovers over the form.
+Pulse animation: Is used to provide some visual feedback.
+Buttons: Have a white background whenever a customer hovers over the buttons 
+Responsive design: Breakpoints and media queries have been used to make sure the user has a seamless user experience whether that be from a tablet,mobile device or a laptop.
+Navigation: Easy-to-use navigation pane that links all pages for easier accessibility.
+
+Version control:
+Github repository has been created with the relevant structure and the neccessary commits that were missing. The readme file has been pushed.
 
 References: 
 E Majikijela(mediaqueries)
+
 CHANGELOG:
 v1.0.0 Initial Release(2025-08-07)
 
