@@ -8,7 +8,7 @@
 </head>
     <!--Body tag containing a header and navigation tag to create a seamless navigation pane for potential customers-->
     <body class="contact">
-        <header id="top">
+        <header class="top">
             <nav class="navbar">
                 <a href="../index.html">Home</a>
                 <a href="../pages/services.html">Services</a>
@@ -29,7 +29,7 @@
                 <tr>
                     <td class="form-td">
                         <label for="firstName" class="f">First Name: </label>
-                        <input type="text" name="firstName" id="firstName" placeholder="Kiree" aurocomplete="on" required>
+                        <input type="text" name="firstName" id="firstName" placeholder="Kiree" autocomplete="on" required>
                     </td>
                 </tr>
 
@@ -43,7 +43,12 @@
                    <tr>
                     <td class="form-td">
                         <label for="email" class="f">Email: </label>
-                        <input type="text" name="email" id="email" placeholder="KireeConorey@gmail.com" autocomplete="on" required>
+                        <input type="email" name="email" id="email" placeholder="KireeConorey@gmail.com" autocomplete="on" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="form-submit">
+                        <button type="submit">Submit</button>
                     </td>
                 </tr>
                 </table>
@@ -52,7 +57,7 @@
         
         <br>
         <!--The footer describes the businesses copyright and when it was properly established-->
-        <footer id="bottom">
+        <footer class="bottom">
             <p>&lt;&lt;&lt;&copy;GreenGardenServicesAndTreeFelling&gt;&gt;&gt;</p>
         </footer>
     </body>
