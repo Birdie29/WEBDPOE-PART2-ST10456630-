@@ -130,6 +130,42 @@
 
                     observer.observe(section);
                 }
+
+                function animateHeading(headingSelector){
+                    const heading = document.querySelector(headingSelector);
+                    if(!heading) return;
+
+                    heading.style.opacity = 0;
+                    heading.style.transform = "translateY(-50)";
+
+                    const observer = new IntersectionObserver((entries, observer) =>{
+                        entries.forEach(entry =>{
+                            if(entry.isIntersecting){
+                                heading.style.transition = "all 0.6s ease-out";
+                                heading.style.opacity = 1;
+                                heading.style.transform = "translateX(0)";
+                                observer.unobserve(heading);
+                            }
+                        });
+                    },{threshold: 0.3});
+
+                    observer.observe(heading);
+                }
+
+                animateHeading("h1");
+                animateHeading("p");
+
+                animateService(".topping", ".s-title", ".topping-img", ".topping-content");
+                animateService(".removal", ".s-title", ".removal-img", ".removal-content");
+                animateService(".trimming", ".s-title", ".trim-img", ".trim-content");
+
+                animateHeading("h1:nth-of-type(2)");
+                animateHeading("p:nth-of-type(2)");
+
+                animateService(".lily", ".s-title", ".lil-image", ".lil-content");
+                animateService(".paradise", ".s-title", ".paradise-img", ".paradise-content");
+                animateService(".hibiscus", ".s-title", ".hib-image", ".hib-content");
+                animateService(".palm", ".s-title", ".palm-image", ".palm-content");
             })   
         </script>
         <!---The footer describes the businesses copyright and when it was properly established-->
