@@ -1347,20 +1347,7 @@ p{
     display: block;
     gap: 2rem;
 }
-.form:hover{
-    border-color: #fff;
-    box-shadow: 0 0 25px rgba(255, 255, 255, 0.8), 0 8px 32px rgba(0, 0, 0, 0.25);
-    animation: pulseForm 1.5s infinite alternate;
-   
-}
-@keyframes pulseForm{
-    form{
-        box-shadow: 0 0 18px rgba(255, 255, 255, 0.6), 0 8px 32px rgba(0, 0, 0, 0.25);
-    }
-    to{
-        box-shadow: 0 0 30px rgba(255, 255, 255, 1), 0 8px 32px rgba(0, 0, 0, 0.25)
-    }
-}
+
 @media(max-width:768px){
     .form{
         gap: 1.5rem;
@@ -1373,6 +1360,20 @@ p{
         gap: 1rem;
         width: 100%;
         padding: 0 1rem;
+    }
+}
+.form:hover{
+    border-color: #fff;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.8), 0 8px 32px rgba(0, 0, 0, 0.25);
+    animation: pulseForm 1.5s infinite alternate;
+   
+}
+@keyframes pulseForm{
+    form{
+        box-shadow: 0 0 18px rgba(255, 255, 255, 0.6), 0 8px 32px rgba(0, 0, 0, 0.25);
+    }
+    to{
+        box-shadow: 0 0 30px rgba(255, 255, 255, 1), 0 8px 32px rgba(0, 0, 0, 0.25)
     }
 }
 .form-table{
