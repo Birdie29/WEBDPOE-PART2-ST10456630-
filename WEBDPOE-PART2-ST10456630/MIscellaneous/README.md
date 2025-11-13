@@ -38,8 +38,16 @@ References:
 E Majikijela(mediaqueries)
 
 CHANGELOG:
+
 v1.0.0 Initial Release(2025-08-07)
+changes done to initial release:
+-Images have been altered to display properly.
+-Github version control has been included.
+-ReadMe file has been pushed and commited to Github with a proper description of the readme file contents.
+-The loading screen from teh proposal has been included.
 
 2025-09-20:
 v1.1.0 lateset update
 i added a changelog and some references
+changes done to the latest update:
+-
