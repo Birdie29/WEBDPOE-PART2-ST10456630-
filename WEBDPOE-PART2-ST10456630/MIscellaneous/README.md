@@ -50,4 +50,7 @@ changes done to initial release:
 v1.1.0 lateset update
 i added a changelog and some references
 changes done to the latest update:
--
+-The enquiry page layout structure has been fixed with the proper code.
+-Contact form contains a submit button.
+-Text size has been reduced to fit all devices.
+-Proper referencing of the sources i used as ideas for the interactive elemts has been used.
