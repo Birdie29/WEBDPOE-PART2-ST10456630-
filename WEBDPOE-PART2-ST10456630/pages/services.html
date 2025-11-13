@@ -51,7 +51,7 @@
 
                 <br>
                 <br>
-                
+
             <services class="lily">
                 <h2 class="s-title">Blue Lily</h2>
                 <div class="lil">
@@ -84,6 +84,49 @@
                 </div>
             </section>
         </main>
+
+         <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    const toppingSection = document.querySelector(".topping");
+                    const title = toppingSection.querySelector(".s-title");
+                    const image = toppingSection.querySelector(".topping-img");
+                    const text = toppingSection.querySelector(".topping-content");
+
+                    toppingSection.style.opacity = 0;
+                    toppingSection.style.transform = "translateY(-50px)";
+                    title.style.opacity = 0;
+                    image.style.opacity = 0;
+                    text.style.opacity = 0;
+
+                    const observer = new IntersectionObserver((entries, observer) => {
+                        entries.forEach(entry => {
+                            if(entry.isIntersecting){
+                                toppingSection.style.transition = "all 0.6s ease-out";
+                                toppingSection.style.opacity = 1;
+                                toppingSection.style.transform = "translateY(0)";
+
+                                setTimeout(() =>{
+                                    title.style.transition = "opacity 0.5s ease";
+                                    title.style.opacity = 1;
+                                },400);
+
+                                setTimeout(() => {
+                                    image.style.transition = "opacity 0.5s ease";
+                                    image.style.opacity = 1;
+                                },800);
+
+                                setTimeout(() =>{
+                                    text.style.transition = "opacity 0.5s ease";
+                                    text.style.opacity = 1;
+                                },1200);
+
+                                observer.unobserve(toppingSection);
+                            }
+                        });
+                    },{threshold: 0.3});
+                    observer.observe(toppingSection);
+                });
+            </script>
         <!---The footer describes the businesses copyright and when it was properly established-->
         <footer class="bottom">
             <p>&lt;&lt;&lt;&copy;GreenGardenServicesAndTreeFelling&gt;&gt;&gt;</p>
