@@ -59,4 +59,3 @@ changes done to the latest update:
 v1.2.0 Final update
 -Social media icons where included so customers can see where they can get intouch with the business.
 -Animations and Transitions have been used to make the whole website interesting.
--
