@@ -1342,7 +1342,12 @@ p{
         border-radius: 15px;
     }
 }
-.c-form .form:hover{
+.form{
+    width: 100%;
+    display: block;
+    gap: 2rem;
+}
+.form:hover{
     border-color: #fff;
     box-shadow: 0 0 25px rgba(255, 255, 255, 0.8), 0 8px 32px rgba(0, 0, 0, 0.25);
     animation: pulseForm 1.5s infinite alternate;
@@ -1355,11 +1360,6 @@ p{
     to{
         box-shadow: 0 0 30px rgba(255, 255, 255, 1), 0 8px 32px rgba(0, 0, 0, 0.25)
     }
-}
-.form{
-    width: 100%;
-    display: block;
-    gap: 2rem;
 }
 @media(max-width:768px){
     .form{
