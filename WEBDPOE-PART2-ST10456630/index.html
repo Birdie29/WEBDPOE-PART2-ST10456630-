@@ -101,8 +101,14 @@
                     setTimeout(() => {
                         h.classList.add("show");
                     } )
-                })
+                });
 
+                const list = document.querySelectorAll(".list");
+                list.forEach((list, i) =>{
+                    setTimeout(() =>{
+                        list.classList.add("show");
+                    }, (paragraphs.length + subHeadings.length + secondParagraphs.length + thirdHeadings.length + i + 1) * 400);
+                });
             });
         </script>
     </body>
