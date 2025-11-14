@@ -55,6 +55,46 @@
             </form>
         </div>
         
+        <script>
+            document.addEventListener("DOMContentLoaded", () =>{
+                function animateElement(element, transformForm, duration = 600, delay = 0){
+                    if(!element) return;
+
+                    element.style.opacity = "0";
+                    element.style.transform = transformForm;
+
+                    const observer = new IntersectionObserver((entries, observer) =>{
+                        entries.forEach(entry => {
+                            if(entry.isIntersecting){
+                                setTimeout(() => {
+                                    element.style.transition = `all ${duration}ms ease-out`;
+                                    element.style.opacity = "1";
+                                    element.style.transform = "translate(0, 0)";
+                                }, delay);
+
+                                observer.unobserve(element);
+                            }
+                        });
+                    },{threshold: 0.3});
+
+                    observer.observe(element);
+                }
+
+                const contactHeading = document.querySelector("h1");
+                const contactParagrapgh = document.querySelector("p");
+
+                animateElement(contactHeading, "translateX(-50px)");
+                animateElement(contactParagrapgh, "translateX(-50px)");
+
+                const formContainer = document.querySelector(".c-form");
+                animateElement(formContainer, "translateY(50px)", 600, 3000);
+ 
+                const formRows = document.querySelectorAll(".form-td");
+                formRows.forEach((row, index) =>{
+                    animateElement(row, "translateY(30px)", 500, 3400 + index * 200);
+                });
+            });
+        </script>
         <br>
         <!--The footer describes the businesses copyright and when it was properly established-->
         <footer class="bottom">
