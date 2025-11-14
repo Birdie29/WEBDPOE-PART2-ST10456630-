@@ -1178,7 +1178,12 @@ p{
     justify-content: center;
     margin-top: 1rem;
 }
-
+.date-time{
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #004d13;
+}
 
 /*ABOUT US PAGE*/
 .about{
