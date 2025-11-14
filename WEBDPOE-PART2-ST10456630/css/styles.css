@@ -1323,6 +1323,19 @@ p{
     border: 0;
     display: block;
 }
+@media(max-width: 768px){
+    .map iframe{
+        height: 350px;
+    }
+}
+@media(max-width: 480px){
+    .map{
+        margin: 1rem;
+    }
+    .map iframe{
+        height: 250px;
+    }
+}
 /*CONTACT US PAGE*/
 .contact{
     background-image: url("/assets/Gazanianewday.webp");
