@@ -96,7 +96,34 @@
             });
         </script>
         <!--Contact form validations-->
-        
+        <script>
+            document.addEventListener("DOMContentLoaded", () =>{
+                const form = document.querySelector(".form");
+
+                form.addEventListener("submit", (e) =>{
+                    e.preventDefault();
+
+                    const firstName = document.querySelector("#firstName").value.trim();
+                    const lastName = document.querySelector("#lastName").value.trim();
+                    const email = document.querySelector("#email").value.trim();
+
+                    const emailPattern = /^[^\s@] + @[^\s@] + \.[^\s@]+$/;
+
+                    if(!firstName || !lastName || !email){
+                        alert("Please fill in all teh fields");
+                        return;
+                    }
+
+                    if(!emailPattern.test(email)){
+                        alert("Please enter a valid email address");
+                        return;
+                    }
+
+                    alert("Form submitted successfully!");
+                    form.reset();
+                });
+            });
+        </script>
         <br>
         <!--The footer describes the businesses copyright and when it was properly established-->
         <footer class="bottom">
