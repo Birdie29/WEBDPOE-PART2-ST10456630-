@@ -17,7 +17,7 @@
                 <a href="./pages/contactus.html">ContactUs</a>
             </nav>
             <div class="search">
-                <span class="search-icon"></span>
+                <span class="search-icon">🔍</span>
                 <input type="text" class="search-input" placeholder="Search services..">
             </div>
         </header>
@@ -112,6 +112,32 @@
                     setTimeout(() =>{
                         list.classList.add("show");
                     }, (paragraphs.length + subHeadings.length + secondParagraphs.length + thirdHeadings.length + i + 1) * 400);
+                });
+            });
+        </script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () =>{
+                const searchIcon = document.querySelector(".search-icon");
+                const searchInput = document.querySelector(".search-input");
+
+                searchIcon.addEventListener("click", () =>{
+                    searchInput.classList.toggle("active");
+                    if(searchInput.classList.contains("active")) {
+                        searchInput.focus();
+                    }
+                });
+
+                searchInput.addEventListener("keypress", (e) =>{
+                    if(e.key === "Enter"){
+                        e.preventDefault();
+                        const query = searchInput.value.trim();
+                        if(query !== ""){
+                            alert(`Searching for: ${query}`);
+                            searchInput.value = "";
+                            searchInput.classList.remove("active");
+                        }
+                    }
                 });
             });
         </script>
