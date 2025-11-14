@@ -133,9 +133,7 @@
                         e.preventDefault();
                         const query = searchInput.value.trim();
                         if(query !== ""){
-                            alert(`Searching for: ${query}`);
-                            searchInput.value = "";
-                            searchInput.classList.remove("active");
+                           window.location.href = `/pages/services.html?search=${encodeURIComponent(query)}`;
                         }
                     }
                 });
