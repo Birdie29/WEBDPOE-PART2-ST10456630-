@@ -39,9 +39,9 @@
 }
 .navbar{
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 @media(max-width:768px){

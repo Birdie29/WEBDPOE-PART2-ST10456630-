@@ -117,27 +117,32 @@
         </script>
 
         <script>
-            document.addEventListener("DOMContentLoaded", () =>{
-                const searchIcon = document.querySelector(".search-icon");
-                const searchInput = document.querySelector(".search-input");
+           document.addEventListener("DOMContentLoaded", () =>{
+            const navbar = document.querySelector(".navbar");
+            if(!navabr) return;
 
-                searchIcon.addEventListener("click", () =>{
-                    searchInput.classList.toggle("active");
-                    if(searchInput.classList.contains("active")) {
-                        searchInput.focus();
-                    }
-                });
+            const searchIcon = navbar.querySelector(".search-icon");
+            const searchInput = navbar.querySelector(".search-input");
+            if(!searchIcon || searchInput) return;
 
-                searchInput.addEventListener("keypress", (e) =>{
-                    if(e.key === "Enter"){
-                        e.preventDefault();
-                        const query = searchInput.value.trim();
-                        if(query !== ""){
-                           window.location.href = `/pages/services.html?search=${encodeURIComponent(query)}`;
-                        }
-                    }
-                });
+            searchIcon.addEventListener("click",() =>{
+                searchInput.classList.toggle("active");
+                if(searchInput.classList.contains("active")){
+                    searchInput.focus();
+                }
             });
+
+            searchInput.addEventListener("keypress", (e) =>{
+                if(e.key === "Enter"){
+                    e.preventDefault();
+                    const query = searchInput.value.trim();
+                    if(query!== ""){
+                        window.location.href = `./pages/services.html?search=${encodeURIComponent(query)}`;
+                    }
+                }
+            })
+
+           })
         </script>
     </body>
         <!--The footer describes the businesses copyright and when it was properly established-->
