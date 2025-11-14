@@ -31,6 +31,41 @@
             <h2>Find us here:</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.114549487549!2d28.010549973802814!3d-26.09517915953959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e959df3eca1529f%3A0x2aa1e7de68bc2d1e!2sGreen%20Garden%20Services%20And%20Tree%20Felling!5e0!3m2!1sen!2sza!4v1763134905699!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
+        <!--Javascript for the about us page to make it more engaging to capture customers attention-->
+        <script>
+            document.addEventListener("DOMContentLoaded", () =>{
+                function animateElement(element, transformForm, duration = 600) {
+                    if(!element) return;
+
+                    element.style.opacity = "0";
+                    element.style.transform = transformForm;
+
+                    const observer  = new IntersectionObserver((entries, observer) =>{
+                        entries.forEach(entry => {
+                            if(entry.isIntersecting) {
+                                element.style.transition = `all ${duration}ms ease-out`;
+                                element.style.opacity = "1";
+                                element.style.transform = "translate(0, 0)";
+                                observer.unobserve(element);
+                            }
+                        });
+                    },{threshold: 0.3});
+                    observer.observe(element);
+                }
+
+                const aboutHeading = document.querySelector(".a");
+                animateElement(aboutHeading, "translateX(-40px)");
+
+                const aboutBox = document.querySelector(".a-content");
+                animateElement(aboutBox, "translateY(40px)", 800);
+
+                const mapHeading = document.querySelector(".map h2");
+                animateElement(mapHeading, "translateX(-40px)");
+
+                const mapFrame = document.querySelector(".map iframe");
+                animateElement(mapFrame, "translateY(40px)", 800);
+            })
+        </script>
         <!--The break tag acts like a separator between the contents of the section tag and the footer tag.-->
         <br>
         <!--The footer contains the businesses copyright and when it was properly established.-->
