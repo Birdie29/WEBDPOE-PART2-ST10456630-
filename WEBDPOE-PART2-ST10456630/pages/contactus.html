@@ -112,7 +112,7 @@
                     const lastName = document.querySelector("#lastName").value.trim();
                     const email = document.querySelector("#email").value.trim();
 
-                    const emailPattern = /^[^\s@] + @[^\s@] + \.[^\s@]+$/;
+                    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
                     if(!firstName || !lastName || !email){
                         alert("Please fill in all teh fields");
