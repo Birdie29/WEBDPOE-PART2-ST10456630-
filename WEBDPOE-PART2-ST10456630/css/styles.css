@@ -13,23 +13,19 @@
     font-size: 15px;
     color-scheme: white;
 }
-.search{
+.social-icons{
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
 }
-.search-icon{
+.social-icons i{
+    font-size: 20px;
     cursor: pointer;
-    font-size: 1.2rem;
-    user-select: none;
+    transition: transform 0.2s ease;
 }
-.search-input{
-    width: 0;
-    transition: width 0.3s ease;
-    padding: 0.3rem 0.5rem;
-}
-.search-input.active{
-    width: 150px;
+.social-icons i:hover{
+    transform: scale(1.2);
 }
 .navbar{
     display:flex;
