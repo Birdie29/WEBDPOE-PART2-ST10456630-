@@ -61,3 +61,4 @@ v1.2.0 Final update
 -Animations and Transitions have been used to make the whole website interesting.
 -On page SEO for every webpage to increase website leads.
 -Javascript form validations have been implemented.
+-Typography has been adjusted to fit all device sizes.
