@@ -47,7 +47,6 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/transform
 https://developer.mozilla.org/en-US/docs/Web/CSS/transition
 
 CHANGELOG:
-
 v1.0.0 Initial Release(2025-08-07)
 changes done to initial release:
 -Images have been altered to display properly.
