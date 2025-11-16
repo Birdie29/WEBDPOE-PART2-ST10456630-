@@ -35,7 +35,7 @@ Version control:
 Github repository has been created with the relevant structure and the neccessary commits that were missing. The readme file has been pushed.
 
 References: 
-E Majikijela(mediaqueries)
+(w3Schools, 1999) Meta tags: https://www.w3schools.com/tags/tag_meta.asp.
 
 CHANGELOG:
 
