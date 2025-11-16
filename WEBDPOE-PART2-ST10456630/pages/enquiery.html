@@ -65,6 +65,26 @@
                 form.classList.add("bounce-in");
             });
         </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function (){
+                const form = document.querySelector(".e-form");
+                const messageField = document.querySelector(".e-messages");
+
+                form.addEventListener("submit", function (event){
+                    event.preventDefault();
+
+                    const message = messageField.value.trim();
+
+                    if(!message){
+                        alert("Please enter a message before submitting.");
+                        return;
+                    }
+
+                    alert("Form has been submitted!");
+                    form.reset();
+                });
+            });
+        </script>
         <br>
         <!--The footer describes the businesses copyright and when it was properly established-->
         <footer class="bottom">
