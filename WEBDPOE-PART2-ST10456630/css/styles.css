@@ -1083,7 +1083,6 @@ p{
     align-items: center;
     flex-direction: column;
 }
-
 .e-form{
     display: flex;
     flex-direction: column;
@@ -1206,7 +1205,7 @@ p{
 
 /*ABOUT US PAGE*/
 .about{
-    background-image: url("/assets/grass-cutting.jpg");
+    background-image: url("/assets/garden-maintenance.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
