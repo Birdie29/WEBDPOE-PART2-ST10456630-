@@ -35,7 +35,9 @@ Version control:
 Github repository has been created with the relevant structure and the neccessary commits that were missing. The readme file has been pushed.
 
 References: 
-(w3Schools, 1999) Meta tags: https://www.w3schools.com/tags/tag_meta.asp.
+ Meta tags (w3Schools, 1999): https://www.w3schools.com/tags/tag_meta.asp.
+Media queries (Majikijela, 2025) 
+ Awesome fonts (Awesome, n.d.): https://fontawesome.com/.
 
 CHANGELOG:
 
