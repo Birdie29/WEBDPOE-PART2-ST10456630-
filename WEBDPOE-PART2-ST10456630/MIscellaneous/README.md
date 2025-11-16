@@ -25,7 +25,7 @@ Home
 |---Services
 
 Interactive Features:
-The enquiry form: Contains a white glow pulse effect that is triggered whenever the user hovers over the form.
+The enquiry form: Contains a white glow effect that is triggered whenever the user hovers over the form.
 Pulse animation: Is used to provide some visual feedback.
 Buttons: Have a white background whenever a customer hovers over the buttons 
 Responsive design: Breakpoints and media queries have been used to make sure the user has a seamless user experience whether that be from a tablet,mobile device or a laptop.
