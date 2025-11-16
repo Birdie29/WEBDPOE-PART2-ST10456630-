@@ -38,6 +38,13 @@ References:
  Meta tags (w3Schools, 1999): https://www.w3schools.com/tags/tag_meta.asp.
 Media queries (Majikijela, 2025) 
  Awesome fonts (Awesome, n.d.): https://fontawesome.com/.
+Animation transitions (MDN references, 2925):
+ https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
+https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+https://developer.mozilla.org/en-US/docs/Web/CSS/transition
 
 CHANGELOG:
 
