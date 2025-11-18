@@ -31,7 +31,7 @@ Buttons: Have a white background whenever a customer hovers over the buttons
 Responsive design: Breakpoints and media queries have been used to make sure the user has a seamless user experience whether that be from a tablet,mobile device or a laptop.
 Navigation: Easy-to-use navigation pane that is available in all webpages that links all pages for easier accessibility.
 Form Validations: Javascript validations ensures the enquiry and contact us forms capture correct and  send complete information.
-SEO Enhancements: On-page SEO meta tags on every webpage to improve visibility and 
+SEO Enhancements: On-page SEO meta tags on every webpage to improve visibility and search performance.
 
 Version control:
 Github repository has been created with the relevant structure and the neccessary commits that were missing. The readme file has been pushed.
