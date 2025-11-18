@@ -72,8 +72,7 @@ changes done to the latest update:
 -Text size has been fixed to proeprly fit all devices.
 -Proper referencing of the sources i used as ideas for the interactive elemts has been used.
 
-2025-11-13:
-v1.2.0 Final update
+v1.2.0 Final update(2025-11-13):
 -Social media icons where included so customers can see where they can get intouch with the business.
 -Animations and Transitions have been used to make the whole website interesting.
 -On page SEO for every webpage to increase website leads.
