@@ -33,6 +33,10 @@ Navigation: Easy-to-use navigation pane that is available in all webpages that l
 Form Validations: Javascript validations ensures the enquiry and contact us forms capture correct and  send complete information.
 SEO Enhancements: On-page SEO meta tags on every webpage to improve visibility and search performance.
 
+How to use the Website:
+For Visistors:
+-Once you click on the website link you have an introduction of the website in the Home Page.
+-
 Version control:
 Github repository has been created with the relevant structure and the neccessary commits that were missing. The readme file has been pushed.
 
