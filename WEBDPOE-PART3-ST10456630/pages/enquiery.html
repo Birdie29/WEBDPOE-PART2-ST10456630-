@@ -60,9 +60,13 @@
         </script>
         <script>
             document.addEventListener("DOMContentLoaded", () =>{
-                const form = document.querySelector(".e-form");
-                
-                form.classList.add("bounce-in");
+                const form = document.querySelector(".enquiry-form");
+
+                if(!form) return;
+
+                requestAnimationFrame(() =>{
+                    form.classList.add("slide-in");
+                });
             });
         </script>
         <script>
