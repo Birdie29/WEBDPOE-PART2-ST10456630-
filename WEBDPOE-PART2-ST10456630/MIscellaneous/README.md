@@ -24,12 +24,12 @@ Home
 |
 |---Services
 
-Interactive Features:
+Interactive Features and Functionality:
 The enquiry form: Contains a white glow effect that is triggered whenever the user hovers over the form.
 Pulse animation: Is used to provide some visual feedback.
 Buttons: Have a white background whenever a customer hovers over the buttons 
 Responsive design: Breakpoints and media queries have been used to make sure the user has a seamless user experience whether that be from a tablet,mobile device or a laptop.
-Navigation: Easy-to-use navigation pane that links all pages for easier accessibility.
+Navigation: Easy-to-use navigation pane that is available in all webpages that links all pages for easier accessibility.
 
 Version control:
 Github repository has been created with the relevant structure and the neccessary commits that were missing. The readme file has been pushed.
