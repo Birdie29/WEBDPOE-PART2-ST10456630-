@@ -65,10 +65,7 @@ changes done to initial release:
 -Github version control has been included.
 -ReadMe file has been pushed and commited to Github with a proper description of the readme file contents.
 
-
-2025-09-20:
-v1.1.0 lateset update
-i added a changelog and some references
+v1.1.0 lateset update(2025-09-20):
 changes done to the latest update:
 -The enquiry page layout structure has been fixed with the proper pseudo elements to amke it more interactive.
 -Contact form contains a submit button.
