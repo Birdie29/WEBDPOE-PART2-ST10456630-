@@ -122,23 +122,30 @@
         <!--Search feature-->
         <script>
            document.addEventListener("DOMContentLoaded", () =>{
-                const searchInput = document.querySelector(".search-input");
+            const navbar = document.querySelector(".navbar");
+            if(!navabr) return;
 
-                if(!searchInput) return;
+            const searchIcon = navbar.querySelector(".search-icon");
+            const searchInput = navbar.querySelector(".search-input");
+            if(!searchIcon || searchInput) return;
 
-                searchInput.addEventListener("keypress", (event) =>{
-                    if(event.key === "Enter"){
-                        event.preventDefault();
+            searchIcon.addEventListener("click",() =>{
+                searchInput.classList.toggle("active");
+                if(searchInput.classList.contains("active")){
+                    searchInput.focus();
+                }
+            });
 
-                        const query = searchInput.value.trim();
-                        if(query !== "") {
-
-                            const url = new URL("./pages/services.html", window.location.origin);
-                            url.searchParams.set("search", query);
-                            window.location.href = url.toString();
-                        }
+            searchInput.addEventListener("keypress", (e) =>{
+                if(e.key === "Enter"){
+                    e.preventDefault();
+                    const query = searchInput.value.trim();
+                    if(query!== ""){
+                        window.location.href = `./pages/services.html?search=${encodeURIComponent(query)}`;
                     }
-                });
+                }
+            });
+
            });
         </script>
     </body>
