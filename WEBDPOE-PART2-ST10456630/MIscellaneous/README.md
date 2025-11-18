@@ -72,7 +72,7 @@ v1.1.0-Lateset Update(2025-09-20):
 
 v1.2.0-Final Update(2025-11-13):
 -Social media icons where included so customers can see where they can get intouch with the business.
--Animations and Transitions have been used to make the whole website interesting.
--On page SEO for every webpage to increase website leads.
+-Animations and Transitions were used to make the whole website interesting.
+-On page SEO for every webpage to increase website leads and the websites visibility.
 -Javascript form validations have been implemented.
 -Typography has been adjusted to fit all device sizes.
