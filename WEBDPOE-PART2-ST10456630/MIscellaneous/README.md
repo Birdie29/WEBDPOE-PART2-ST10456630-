@@ -37,6 +37,9 @@ How to use the Website:
 For Visistors:
 -Once you click on the website link you have an introduction of the website in the Home Page.
 -You will see a navigation bar at the top to browse through each webpage with titles such as Services, About Us, Contact Us or Enquiry.
+-You view each service ad its descriptions on the Services Page.
+-Any enquiry relating to the services can be submitted through the Enquiry Page.
+-Contact details can be retrived through the Contact us Page. 
 Version control:
 Github repository has been created with the relevant structure and the neccessary commits that were missing. The readme file has been pushed.
 
