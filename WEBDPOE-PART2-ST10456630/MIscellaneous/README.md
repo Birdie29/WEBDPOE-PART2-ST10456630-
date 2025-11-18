@@ -74,5 +74,5 @@ v1.2.0-Final Update(2025-11-13):
 -Social media icons where included so customers can see where they can get intouch with the business.
 -Animations and Transitions were used to make the whole website interesting.
 -On page SEO for every webpage to increase website leads and the websites visibility.
--Javascript form validations have been implemented.
+-Javascript form validations have been implemented for both the contact and enquiry pages.
 -Typography has been adjusted to fit all device sizes.
