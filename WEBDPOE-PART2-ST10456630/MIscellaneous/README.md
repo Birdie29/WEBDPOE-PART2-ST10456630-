@@ -59,20 +59,18 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/transform
 https://developer.mozilla.org/en-US/docs/Web/CSS/transition
 
 CHANGELOG:
-v1.0.0 Initial Release(2025-08-07)
-changes done to initial release:
+v1.0.0-Initial Release(2025-08-07)
 -Images have been altered to display properly.
 -Github version control has been included.
 -ReadMe file has been pushed and commited to Github with a proper description of the readme file contents.
 
-v1.1.0 lateset update(2025-09-20):
-changes done to the latest update:
+v1.1.0-Lateset Update(2025-09-20):
 -The enquiry page layout structure has been fixed with the proper pseudo elements to amke it more interactive.
 -Contact form contains a submit button.
 -Text size has been fixed to proeprly fit all devices.
 -Proper referencing of the sources i used as ideas for the interactive elemts has been used.
 
-v1.2.0 Final update(2025-11-13):
+v1.2.0-Final Update(2025-11-13):
 -Social media icons where included so customers can see where they can get intouch with the business.
 -Animations and Transitions have been used to make the whole website interesting.
 -On page SEO for every webpage to increase website leads.
