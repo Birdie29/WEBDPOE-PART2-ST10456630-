@@ -41,6 +41,8 @@ For Visistors:
 -Any enquiry relating to the services and their prices can be submitted through the Enquiry Page.
 -Contact details can be retrived through the Contact us Page if you wish to go through with the services.
 
+Browser support:
+This website has been tested with the following search engines, Google Chrome and Microsoft Edge
 Version control:
 Github repository has been created with the relevant structure and the neccessary commits that were missing. The readme file has been pushed.
 
