@@ -36,7 +36,7 @@ SEO Enhancements: On-page SEO meta tags on every webpage to improve visibility a
 How to use the Website:
 For Visistors:
 -Once you click on the website link you have an introduction of the website in the Home Page.
--
+-You will see a navigation bar at the top to browse through each webpage with titles such as Services, About Us, Contact Us or Enquiry.
 Version control:
 Github repository has been created with the relevant structure and the neccessary commits that were missing. The readme file has been pushed.
 
